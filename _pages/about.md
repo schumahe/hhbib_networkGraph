@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "Info"
+title: "Erstellung eines Netzwerkgraphen mit der Pyton-Library Python"
 classes: wide
 ---
 
