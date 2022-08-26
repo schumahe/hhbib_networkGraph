@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "Erstellung eines Netzwerkgraphen mit der Pyton-Library Python"
+title: "Erstellung eines Netzwerkgraphen mit Pyvis"
 classes: wide
 ---
 
