@@ -4,9 +4,7 @@ title: "Netzwerkgraphen mit der Python-Library Pyvis"
 classes: wide
 ---
 
-Die auf dieser Seite präsentierten Netzwerkgraphen sind im Rahmen einer Projektarbeit des Zertifikatskurses Data Librarian 2021/22 am Zentrum für Bibliotheks-und Informationswissenschaftliche Weiterbildung der TH Köln entstanden. Ziel der Projektarbeit war es, mit Personendaten der Hamburg-Bibliographie, die in der Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky erstellt wird, familiäre Strukturen in einem Netzwerkgraphen sichtbar zu machen, der mit der Python-Library Pyvis erstellt wird. Zusätzlich zu diesem Ansatz werden auch Relationen zwischen Personen und Berufen dargestellt. Die Ergebnisse lassen sich besser im Zusammenhang mit der Ausarbeitung und den Skripten verstehen, die dazu entstanden und auf diesem [Repository](https://github.com/schumahe/hhbib_networkGraph) einzusehen sind. Beim Aufrufen der Graphen können zum Teil hohe Ladezeiten entstehen, da in einigen Fällen große Datenmengen zugrunde liegen.
-
-## Erläuterungen zu den Graphen
+Die auf dieser Seite präsentierten Netzwerkgraphen sind im Rahmen einer Projektarbeit des Zertifikatskurses Data Librarian 2021/22 am Zentrum für Bibliotheks-und Informationswissenschaftliche Weiterbildung der TH Köln entstanden. Ziel der Projektarbeit war es, mit Personendaten der Hamburg-Bibliographie, die in der Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky erstellt wird, familiäre Strukturen in einem Netzwerkgraphen sichtbar zu machen, der mit der Python-Library Pyvis erstellt wird. Zusätzlich zu diesem Ansatz werden auch Relationen zwischen Personen und Berufen dargestellt. Die Ergebnisse lassen sich besser im Zusammenhang mit der Ausarbeitung und den Skripten verstehen, die dazu entstanden und auf diesem [Repository](https://github.com/schumahe/hhbib_networkGraph) einzusehen sind. Beim Aufrufen der Graphen können zum Teil hohe Ladezeiten entstehen, da in einigen Fällen große Datenmengen zugrunde liegen. Im Folgenden sind die Visualisierungen mit den Erläuterungen der Projektausarbeitung versehen:
 
 | Bezeichnung | Erläuterung |
 | :------------------------------------------- | :----------------------------------------------------- |
@@ -25,7 +23,7 @@ Die nächsten drei Visualisierungen zeigen Varianten, die - will man die Informa
 | graph#8 | Datenpool: relation_fam; layout-algorithm: force_atlas_2based; spring_length=220; central_gravity=0.05; overlap=1. Hier wird die Unpraktikabilität durch die Unseparierbarkeit der einzelnen Familienubnetze bedingt. Auch hier sind Familienbeziehungen ohne Verbindung zum Hamburg-Node dargestellt. Der Zug der einzelnen Subnetze zum Graphmittelpunkt, will man sie aus dem Konglomerat herausziehen, um zu erkennen, welche Personen dazu gehören, ist so stark, dass dieses Separieren per Drag nicht optimal funktioniert. |
 | graph#9 | data-pool: relation_fam; layout-algorithm: barnes_hut; hamburg-node. Dieser Graph wurde auf Grundlage der Verbindung der Familiennetze mit dem Hamburg-Node mittels den Default-Einstellungen des Layoutalgorithmus "barnesHut" erstellt. Auch hier entsteht eine hübsch anzusehende Sonne mit ihren sich leicht bewegenden Planeten, aber auch hier ist der Zoom-Faktor so groß, dass - ist die Information erst einmal erreicht - sie nicht mehr visuell in den Beziehungszusammenhang gebracht werden kann, ohne wieder zurück zoomen zu müssen. |
 
-## Weitere Visualisierungsbeispiele, zusätzlich zu denen in der Projektarbeit aufgeführten
+### Weitere Visualisierungsbeispiele, zusätzlich zu denen in der Projektarbeit aufgeführten
 
 - [graph#10](https://jekyllrb.com/)
 - [graph#11]()
