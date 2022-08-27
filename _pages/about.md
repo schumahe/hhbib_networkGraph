@@ -8,7 +8,7 @@ Die auf dieser Seite präsentierten Netzwerkgraphen sind im Rahmen einer Projekt
 
 ## Erläuterungen zu den Graphen
 
-| keine Tabellenüberschrift!                                    |                                            |
+|                               | Erläuterung                                           |
 | ------------------------------------------- | ----------------------------------------------------- |
 | graph#1 | Datenpool: relation_fam; layout-algorithm: repulsion; node-distance: -259; smooth=False; hamburg-node; random hex-colors. Der erste Graph zeigt verwandtschaftliche Zusammenhänge. Diese werden durch die Farbgebung unterstützt. Die Generierung der zufälligen Hex-Colors für die Nodes wird durch die abhängige Iteration an die Verwandten weitergegeben (Ausnahmen begründen falsche Originaldaten). Ebenso sind die Nodes durch die Visualisierung der Edges von dem Hamburg-Node (vgl. Ausarbeitungstext sowie Anhang 1) zu den Familien gruppiert. Besonders macht diese Visualisierung der hohe Node-Abstand aus, definiert im Layout-Algorithmus "repulsion" und in abstossendem Zusammenhang mit dem Node-Abstandswert, der die Nodes mit Hilfe von geraden Edges weiträumig gruppiert. |
 | graph#2 | Datenpool: relation_fam; layout-algorithm: repulsion; central-gravity=1.1. Die zweite Visualisierung zeigt einen Graphen, der ohne die Verbindung von Edges mit dem Hamburg-Node von einzelnen Familiensubnetzen geprägt ist und durch "weiche" Edges einen schwungvollen Charakter erhält. Die Nodes sind dabei durch einen leicht erhöhten Wert der central_gravity als Argument der Algorithmusfunktion "repulsion" in die Mitte gezogen. Die farbliche Dualität spiegelt Nodes mit und ohne "title"-Information wieder. |
